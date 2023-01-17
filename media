@@ -1,0 +1,15 @@
+#include <stdio.h>
+main(){
+    int contador=0;
+   int num;
+    int soma=0;
+
+    while(contador<10){
+        printf("digite um numero");
+        scanf("%d",&num);
+        soma=soma +num;
+        contador=contador+1;
+    }
+    printf("Soma=%d\n media%.2f\n",soma,soma/10.0);
+
+}
